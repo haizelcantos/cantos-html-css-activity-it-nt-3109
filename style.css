@@ -1,0 +1,92 @@
+.headings {
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid black;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+thead {
+    background-color: rgb(243, 157, 232);
+}
+
+th, 
+td {
+    border: 1px solid;
+    padding: 10px 200px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.field {
+    flex: 1;
+    min-width: 150px;
+}
+
+.field small {
+    flex: 0 0 80px;
+}
+
+.order-form {
+    display: flex;
+    align-items: flex-end;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+button {
+    background-color: rgb(198, 36, 176);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.styled:active {
+  box-shadow:
+    inset -2px -2px 3px rgb(255 255 255 / 0.6),
+    inset 2px 2px 3px rgb(0 0 0 / 0.6);
+}
+
+p {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.text {
+    text-align: left;
+}
+
+.price {
+    color: red;
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
